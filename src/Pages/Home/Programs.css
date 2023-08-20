@@ -1,4 +1,8 @@
-ol {
-  list-style: decimal;
-  padding-left: 28px;
+.programs_text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.programs_list {
+  width: 90%;
+  margin: auto;
 }

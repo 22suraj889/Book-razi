@@ -1,4 +1,31 @@
+.author {
+  background: linear-gradient(45deg, #321b19, #c8708e);
+  color: white;
+  border-bottom-left-radius: 38%;
+  border-bottom-right-radius: 3%;
+  min-height: 100vh;
+}
+.author h1 {
+  text-align: center;
+  padding: 3rem 0rem 0rem 0rem;
+}
 .author_image {
-  width: 66rem;
-  height: 13rem;
+  width: 16rem;
+  height: 20rem;
+  border-radius: 1rem 1rem 5rem 0rem;
+}
+
+@media screen and (max-width: 885px) {
+  .author {
+    text-align: center;
+  }
+  .author div {
+    flex-direction: column;
+  }
+  .author div p,
+  .author div div {
+    width: 100%;
+    padding: 1rem 4rem 1rem 4rem;
+    align-items: center;
+  }
 }

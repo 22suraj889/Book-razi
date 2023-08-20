@@ -1,0 +1,21 @@
+.burger {
+  position: fixed;
+  right: 11px;
+  top: 6px;
+  cursor: pointer;
+  display: none;
+  z-index: 101;
+}
+
+.burger div {
+  width: 28px;
+  height: 3px;
+  margin: 7px;
+  background-color: black;
+}
+
+@media screen and (max-width: 885px) {
+  .burger {
+    display: block;
+  }
+}

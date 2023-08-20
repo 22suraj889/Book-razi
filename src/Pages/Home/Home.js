@@ -1,13 +1,14 @@
 import React from "react";
-import AboutBook from "./AboutBook";
 import AboutAuthor from "./AboutAuthor";
 import Programs from "./Programs";
+import Carousel from "../../Components/Carousel";
 
 const Home = () => {
   return (
     <div>
-      <AboutBook />
       <AboutAuthor />
+      <Carousel />
+      {/* <AboutBook /> */}
       <Programs />
     </div>
   );

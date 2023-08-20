@@ -1,0 +1,20 @@
+.navbar{
+  z-index: 100;
+}
+@media screen and (max-width: 885px) {
+  .navbar {
+    flex-direction: column;
+    transition: all 0.5s ease-in;
+    position: fixed;
+    width: 100vw;
+  }
+  .navbar li {
+    margin-top: 1rem;
+  }
+  .navbar_active {
+    transform: translateY(0px);
+  }
+  .navbar_inactive {
+    transform: translateY(-500px);
+  }
+}
